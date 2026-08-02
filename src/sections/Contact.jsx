@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/chrome";
 import { Reveal } from "@/components/motion";
 import { profile } from "@/data/content";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.REACT_APP_BACKEND_URL}api`;
 
 const inputCls =
   "w-full rounded-xl border border-line bg-surface px-4 py-3.5 text-sm text-ink outline-none transition-colors duration-300 placeholder:text-mute/50 focus:border-brand";

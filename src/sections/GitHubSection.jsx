@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/chrome";
 import { Reveal } from "@/components/motion";
 import { profile } from "@/data/content";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.REACT_APP_BACKEND_URL}api`;
 
 const LANG_COLORS = {
   Java: "#b07219",
